@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calculadora"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Calculadora" Height="450" Width="800" Icon="calculadora.ico">
 
     <Grid ShowGridLines="False">
         <Grid.ColumnDefinitions>
@@ -81,12 +81,12 @@
             </Viewbox>
         </Button>
 
-        <Button Margin="5" Grid.Row="5" Grid.ColumnSpan="3" Tag="0" Click="Button_Click">
+        <Button Margin="5" Grid.Row="4" Grid.ColumnSpan="3" Tag="0" Click="Button_Click">
             <Viewbox>
                 <TextBlock>0</TextBlock>
             </Viewbox>
         </Button>
 
     </Grid>
-    
+
 </Window>
